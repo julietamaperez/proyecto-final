@@ -1,0 +1,27 @@
+@import "generales";
+@import "titulosysub";
+@import "footer";
+@import "cards";
+@import "grid";
+@import "videos";
+
+    
+  @media (min-width: 600px) {
+    body {
+      background-color: lightcyan;
+    }
+  }
+  @media (max-width: 600px) {
+    body {
+      background-color: antiquewhite;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .grupo-1 {
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px;
+      padding: 35px 0px;
+    }
+  }
+
